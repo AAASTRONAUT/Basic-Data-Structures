@@ -81,8 +81,9 @@ int main() {
     head.top = -1;
     
     //inputting the string
-    char s[100] = "{shivnash(shivnash)}{}{}[][][";
-//    cin>>s;
+    char s[100];
+    cin>>s;
+    
     int length =0;
     while(s[length] !='\0'){
         length++;
