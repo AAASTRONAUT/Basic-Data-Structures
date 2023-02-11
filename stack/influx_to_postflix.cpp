@@ -76,10 +76,16 @@ char * toPostfix(char s[] , int len){
         i++;
     }
     while(head.top != -1){
-        postfix[j] = head.s[head.top];
-        pop(&head);
+        char temp;
+        if(precedance(s[i]) > precedance(head.s[head.top])){
+            postfix[j] = head.s[head.top];
+            pop(&head);
+        }
+        else{
+            postfix[j] = head.s[head.top];
+            pop(&head);
+        }
         j++;
-        i++;
     }
     return postfix;
 }
