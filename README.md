@@ -7,4 +7,11 @@
 <li>matrix</li>
 <li>recursion</li>
 <li>strings</li>
+<li>
+Trees
+<ul>
+<li>tree</li>
+<li>BST</li>
+<li>AVL</li>
+</ul></li>
 </ul>
