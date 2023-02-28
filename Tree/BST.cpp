@@ -6,8 +6,8 @@
 //
 
 #include <iostream>
-#include "queue.h"
-#include "stack.h"
+#include "queueBST.h"
+#include "stackBST.h"
 using namespace std;
 
 class BST{
